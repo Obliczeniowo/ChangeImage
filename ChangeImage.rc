@@ -1,0 +1,156 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MDICHILDS MENU 
+BEGIN
+    POPUP "Plik (file)"
+    BEGIN
+        MENUITEM "Otwórz (Open)",               ID_OPEN
+        MENUITEM "Zamknij (Close)",             ID_CLOSEFILE
+        POPUP "Utwórz (Create)"
+        BEGIN
+            MENUITEM "Plik podgl¹du gradientów (preview gradients file)", ID_GRPRFILE
+            MENUITEM "Plik svg z gradientami (file svg with gradients)", ID_SVGGR
+        END
+        MENUITEM "Eksport gradientów z pliku svg (export gradients fom svg file)", ID_EXPORT_SVG
+        MENUITEM "Eksport gradientów z plików ggr do css (export from ggr files to css)", ID_TO_CSS
+        MENUITEM SEPARATOR
+        MENUITEM "Przegl¹darka gradientów (gradient browser)", ID_GRADIENT_BROWSER
+        MENUITEM SEPARATOR
+        MENUITEM "Zamknij program (Close program) ALT+F4", ID_CLOSEAPPLICATION
+    END
+    POPUP "Okna (Windows)"
+    BEGIN
+        MENUITEM "Kaskadowo",                   ID_KASKADOWO
+        MENUITEM "Wyrównaj poziomo (Horizontal)", ID_TILEV
+        MENUITEM "Wyrównaj pionowo (vertical)", ID_TILEH
+    END
+END
+
+IDR_RULERMENU MENU 
+BEGIN
+    POPUP "popup"
+    BEGIN
+        POPUP "Jednostka"
+        BEGIN
+            MENUITEM "pixel",                       ID_JEDNOSTKI_PIXEL
+            MENUITEM "milimetr",                    ID_JEDNOSTKI_MILIMITER
+            MENUITEM "cal",                         ID_JEDNOSTKI_INCH
+        END
+    END
+END
+
+IDR_NOMDICHILDMENU MENU 
+BEGIN
+    POPUP "Plik (file)"
+    BEGIN
+        MENUITEM "Otwórz (Open)",               ID_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Zamknij program (Close application) Alt+F4", ID_CLOSEAPPLICATION
+    END
+END
+
+IDR_GR_MENU MENU 
+BEGIN
+    POPUP "popup"
+    BEGIN
+        MENUITEM "Rozmieœæ równomiernie (arrange equally)", ID_RWM
+        MENUITEM "Kolory z bitmapy (colors from bitmap)", ID_CFB
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_RULER_BUTTON        BITMAP                  "RulerButton.bmp"
+IDB_SAVE_GR             BITMAP                  "bitmap1.bmp"
+IDB_BITMAP2             BITMAP                  "hand.bmp"
+IDB_STARTUP_BITMAP      BITMAP                  "GrFromBitmap.bmp"
+IDB_POINTS              BITMAP                  "points.bmp"
+IDB_LINE                BITMAP                  "line.bmp"
+IDB_CH_OPEN             BITMAP                  "ch_open.bmp"
+IDB_CH_CLOSE            BITMAP                  "ch_close.bmp"
+IDB_CIRCLE              BITMAP                  "line1.bmp"
+IDB_BROWSER             BITMAP                  "browser.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_GIMP                ICON                    "gimp2.ico"
+IDI_CHANGEIMAGE         ICON                    "changeimage.ico"
+IDI_BRIGHTNES           ICON                    "icon1.ico"
+IDI_GLOBAL_CONTRAST     ICON                    "ico00001.ico"
+A                       ICON                    "changeimage.ico"
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
